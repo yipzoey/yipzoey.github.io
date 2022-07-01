@@ -1,0 +1,110 @@
+body {
+  height: 1000px;
+  width:900px;
+font-family: serif;
+}
+
+.header {
+background-color: white;
+color: white;
+height: 10%;
+display: flex;
+
+}
+
+.banner {
+background-color: #d13d3d;
+width: 100px;
+height: 150px;
+margin-left: 50px;
+font-size: 50px;
+text-align: center;
+}
+
+.info {
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+}
+
+.infoName {
+font-size: 40px;
+color: #d13d3d;
+}
+
+.onlyName {
+font-weight: bold;
+}
+.pronounce{
+color: black
+}
+.infoDetail {
+color:black
+}
+
+
+.container {
+height:90%;
+width: 100%;
+display:flex;
+margin-top:80px;
+}
+
+.left-info {
+margin-left: 18px
+}
+
+.left-section {
+background-color: #d13d3d;
+width: 40%;
+height: 90%;
+margin-right: 40px;
+color: #fff;
+}
+
+.location,.skills-title,.exp-title,.univeristy-title{
+  font-style: italic;
+}
+
+.educationContent{
+  display: grid;
+    grid-template-columns: 1fr 60px;;
+    padding-bottom: 2rem;
+}
+
+
+.right-section {
+width: 60%;
+height: 90%;
+}
+
+.left-title {
+font-weight:bold;
+font-size: 20px
+}
+
+.right-title{
+font-weight: bold;
+font-size:20px;
+color: #d13d3d;
+position: relative;
+}
+
+.right-title:after{
+  content:" ";
+  height: 2px;
+  width: 340px;
+  background: #d13d3d;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.bold {
+font-weight:bold;
+}
+
+.small{
+font-size: small;
+}
