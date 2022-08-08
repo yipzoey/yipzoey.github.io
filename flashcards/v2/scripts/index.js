@@ -10,9 +10,9 @@ class question {
 let quiz = [];
 
 //Add the three objects to the array.
-quiz.push(new question('What is 3+1?', '4','/Users/yezi/Desktop/IWP/flashcards/image/4.jpeg'));
-quiz.push(new question('What is 5-2?', '3','/Users/yezi/Desktop/IWP/flashcards/image/3.jpeg'));
-quiz.push(new question('What is 7*4?', '28','/Users/yezi/Desktop/IWP/flashcards/image/28.jpeg'));
+quiz.push(new question('What is 3+1?', '4'));
+quiz.push(new question('What is 5-2?', '3'));
+quiz.push(new question('What is 7*4?', '28'));
 
 
 let count = 0;
